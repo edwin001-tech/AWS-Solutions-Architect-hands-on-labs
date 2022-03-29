@@ -163,7 +163,7 @@ SSH into your bastion host using the authentication agent you just added:
 SSH into the private instance running in your private subnet:
 `ssh ec2-user@PrivateInstancePrivateIPaddress`
 Enter the following command to install operating system updates:
-`sudo yum update` insert emoji for timeout
+`sudo yum update`  oops :sob: timeout
 Although the private instance security group is configured correctly, and you should have outbound access to the internet, it still timed out. The time out is caused by the private NACL denying inbound HTTP traffic. You will need Network Address Translation (NAT) to allow your private instance outgoing connectivity to the Internet, while at the same time blocking inbound traffic from the Internet. Once NAT is in place, you should be able to get package updates.
 
 12. Launching a Network Address Translation (NAT) Gateway
@@ -185,7 +185,7 @@ Locate the 0.0.0.0/0 Destination route and clear the Target field by clicking th
 **_You created a NAT Gateway to allow your instances in private subnet access to the public internet._**
 
 13. Enter the following command to use the yum package manager to update the operating system packages on your private instance.
-    `sudo yum update -y` :+1:
+    `sudo yum update -y`  Worked :+1:
 
 **_ Important! _** There are two important configurations worth mentioning again as to why this command should work in your lab environment:
 
