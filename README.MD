@@ -1,1 +1,1 @@
-### A curated content of my hands on AWS labs from  [Cloud Academy]( [GitHub Pages](https://pages.github.com/).)
+# A curated content of my hands on AWS labs from  [Cloud Academy](https://cloudacademy.com/). 
