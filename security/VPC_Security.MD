@@ -194,4 +194,4 @@ Locate the 0.0.0.0/0 Destination route and clear the Target field by clicking th
 
 You successfully performed an operating system update on an instance in a private subnet. To do so required access from your private instance, utilizing the route table of a private NACL and a NAT device and its security group.
 
-![Diagram](/aws_labs/security/images/security.png)
+![Diagram](https://github.com/edwin001-tech/AWS-Solutions-Architect-hands-on-labs/blob/main/security/images/security.png)
