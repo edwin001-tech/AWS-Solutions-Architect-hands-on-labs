@@ -185,7 +185,7 @@ Locate the 0.0.0.0/0 Destination route and clear the Target field by clicking th
 **_You created a NAT Gateway to allow your instances in private subnet access to the public internet._**
 
 13. Enter the following command to use the yum package manager to update the operating system packages on your private instance.
-    `sudo yum update -y` emoji for it worked
+    `sudo yum update -y` :+1:
 
 **_ Important! _** There are two important configurations worth mentioning again as to why this command should work in your lab environment:
 
@@ -194,4 +194,5 @@ Locate the 0.0.0.0/0 Destination route and clear the Target field by clicking th
 
 You successfully performed an operating system update on an instance in a private subnet. To do so required access from your private instance, utilizing the route table of a private NACL and a NAT device and its security group.
 
+#### Diagram for the lab
 ![Diagram](https://github.com/edwin001-tech/AWS-Solutions-Architect-hands-on-labs/blob/main/security/images/security.png)
